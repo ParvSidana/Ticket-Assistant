@@ -41,4 +41,5 @@ export const onSignup = inngest.createFunction(
         } catch (error) {
             console.log("Error in onSignup function:", error);
         }
-    }) 
+    }
+) 
