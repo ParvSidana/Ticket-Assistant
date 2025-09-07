@@ -19,7 +19,7 @@ const analyzeTicket = async (ticket) => {
             Output Format:
             {
             "summary": "Brief summary of the issue in 1–2 sentences.",
-            "priority": "low | medium | high | urgent",
+            "priority": "low | medium | high",
             "helpfulNotes": "Helpful notes for the human moderators to better understand or troubleshoot the issue. Can also include relevant resource links (e.g., official docs, tutorials, knowledge base).",
             "relatedSkills": [] //e.g. ["React","MongoDB",...]
             }
